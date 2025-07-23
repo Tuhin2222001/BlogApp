@@ -52,3 +52,5 @@ Only when this server is running, the application can fetch and display job-rela
 
 This BlogApp project showcases a solid understanding of client-side routing with React Router, including advanced patterns like nested routing and route-based data loading. It also demonstrates good error handling practices and mimics backend integration using a local server setup. This structure makes it scalable and adaptable for future API integrations or larger projects.
 
+⚠️ Note: The "Job" section in this app depends on backend JSON data stored locally in the data folder. It will only be accessible after restarting the application (npm run dev), as the loader fetches the data during initial load.
+
